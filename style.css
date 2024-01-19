@@ -40,6 +40,10 @@
     perspective: 1000px;
 }
 
+@media screen and (max-height: 450px) {
+    .card-wrapper {left: 70%;}
+    }
+
 .card-wrapper:hover .card {
     transform: rotateY(180deg);
 }
