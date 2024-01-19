@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body, html {
+          height: 100%;
+          font-family: "Inconsolata", sans-serif;
+        }
+        
+        .bgimg {
+          background-position: center;
+          background-size: cover;
+          background-image: url("mainpage.jpg");
+          min-height: 75%;
+        }
+
+        .sidenav {
+        width: 120px;
+        height:100%;
+        position: fixed;
+        z-index: 1;
+        top: 56px;
+        left: 0;
+        background: #eee;
+        overflow-x: hidden;
+        padding: 8px 0;
+        }
+
+        .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color: #2196F3;
+        display: block;
+        }
+
+        .sidenav a:hover {
+        color: #064579;
+        }
+
+        .main {
+        margin-left: 140px; /* Same width as the sidebar + left position in px */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+        }
+
+        @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+    <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+        <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+        <a href="about.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+        <a href="projects.html" class="w3-button w3-block w3-black">PROJECTS</a>
+    </div>
+    <div class="w3-col s3">
+        <a href="resume.html" class="w3-button w3-block w3-black">RESUME</a>
+    </div>
+    </div>
+</div>
+           
+<div class="sidenav">
+    <a href="python.html">Python Projects</a>
+    <a href="businessCard.html">Digital Business Card</a>
+  </div>
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large" style="height:100%;">
+
+    
+    <div class="w3-container w3-padding-32">
+        <div class="w3-content" style="max-width:700px">
+            <h5 class="w3-center w3-padding-32"><span class="w3-tag w3-wide">Hyperlinks to download python projects</span></h5>
+            <a href="pProjects/Rock_paper_scissors.py" target="_blank">Rock Paper Scissors Game</a>
+            
+            <p><a href="pProjects/tictactoe.py" target="_blank">Tic Tac Toe Game</a></p>
+
+            <p><a href="pProjects/2_Player_Tank_Game.zip" target="_blank">2 Player Tank Game</a></p>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
