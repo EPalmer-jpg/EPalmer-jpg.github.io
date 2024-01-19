@@ -4,11 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>    
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <style>
         body, html {
           height: 100%;
@@ -21,41 +18,11 @@
           background-image: url("mainpage.jpg");
           min-height: 75%;
         }
-
-        .sidenav {
-        width: 120px;
-        height:100%;
-        position: fixed;
-        z-index: 1;
-        top: 56px;
-        left: 0;
-        background: #eee;
-        overflow-x: hidden;
-        padding: 8px 0;
+        
+        .menu {
+          display: none;
         }
 
-        .sidenav a {
-        padding: 6px 8px 6px 16px;
-        text-decoration: none;
-        font-size: 20px;
-        color: #2196F3;
-        display: block;
-        }
-
-        .sidenav a:hover {
-        color: #064579;
-        }
-
-        .main {
-        margin-left: 140px; /* Same width as the sidebar + left position in px */
-        font-size: 28px; /* Increased text to enable scrolling */
-        padding: 0px 10px;
-        }
-
-        @media screen and (max-height: 450px) {
-        .sidenav {padding-top: 15px;}
-        .sidenav a {font-size: 18px;}
-        }
         .fa {
             padding: 10px;
             font-size: 20px;
@@ -73,7 +40,6 @@
             background: #007bb5;
             color: white;
         }
-
     </style>
 </head>
 <body>
@@ -95,58 +61,22 @@
     </div>
     </div>
 </div>
-           
-<div class="sidenav">
-    <a href="python.html">Python Projects</a>
-    <a href="BusinessCard.html">Digital Business Card</a>
-  </div>
+            
+<header></header>
 
 <!-- Add a background color and large text to the whole page -->
 <div class="w3-sand w3-grayscale w3-large" style="height:100%;">
 
-</div>
+    <!-- About Container -->
+    <div class="w3-container w3-padding-32">
+        <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-32"><span class="w3-tag w3-wide">MORE ABOUT ME</span></h5>
+        <p>Hello, I'm Evan, a mechanical engineering graduate from Texas A&M that is passionate about the engineering process and coding. My main goal is to be able to work alongside professionals and gain valuable experience to help further my career and improve my knowledge in any way possible. The engineering process has always interested me and finding the solution to a problem gives me a satisfying feeling. I created this website to showcase my projects.</p>
 
-<div class="card-wrapper">
-    <div class="card">
-        <div class="card-front">
-            <div class="left">
-                <img src="images/face.png">
-            </div>
-            <div class="right">
-                <div class="person right-content">
-                    <i class="fas fa-user-tie"></i>
-                    <div>
-                        <h4>Evan Palmer</h4>
-                        <p>Mechanical Engineer</p>
-                    </div>
-                </div>
-                <div class="phone right-content">
-                    <i class="fas fa-phone"></i>
-                    <div>
-                        <p>+832 748 8692</p>
-                    </div>
-                </div>
-                <div class="email right-content">
-                    <i class="fas fa-envelope-open"></i>
-                    <div>
-                        <p>evancp311@gmail.com</p>
-                    </div>
-                </div>
-                <div class="adress right-content">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div>
-                        <p>Austin, Tx
-                        <br>(Open to relocating)</p>
-                    </div>
-                </div>
-            </div>
         </div>
-        <div class="card-back">
-            <img src="images/logo.png" >
-            <div class="w3-display-bottomleft">
-                <a href="https://www.linkedin.com/in/evanpalmermeen/" class="fa fa-linkedin" target="_blank"></a>
-            </div>
-        </div>
+    </div>
+    <div class="w3-display-bottommiddle" >
+        <a href="https://www.linkedin.com/in/evanpalmermeen/" class="fa fa-linkedin" target="_blank"></a>
     </div>
 </div>
 </body>
